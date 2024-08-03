@@ -1,0 +1,26 @@
+{
+    "rules": "st->op1->check->cond(no)->alt(no)->e2\nalt(yes)->op2\ncond(yes)->op2->op3->op4->op5->e",
+    "code": "st=>start: Customer requests reservation\ne=>end: Enter Reservation\ne2=>end: No Reservation\nop1=>operation: What|department1\ncheck=>subroutine: Check availability\nop2=>operation: Who|department2\nop3=>operation: When|department1\nop4=>operation: Where|department2\nop5=>operation: Why|department1\ncond=>condition: Available?\nalt=>condition: Aternative?\n", 
+    "mdMap": {
+        "st": "crres",
+        "check": "cares",
+        "__DEFAULT": "unset"
+    },
+    "links": {
+        "op3":"/test"
+    },
+    "buttonLabels": {
+        "st": "Begin",
+        "op1": "The What",
+        "check": "Check availability",
+        "cond": "Available?",
+        "alt": "Alternative?",
+        "op2": "Who's Renting",
+        "op3": "When",
+        "op4": "Where",
+        "op5": "Why",
+        "e": "Enter reservation",
+        "e2": "No Reservation"
+    }
+    
+}

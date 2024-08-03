@@ -1,0 +1,27 @@
+{
+  "name": "react-simple-flowchart",
+  "description": "The simple React flowchart component based on flowchart.js",
+  "version": "1.2.4",
+  "main": "lib/index.js",
+  "author": "alwinn1977",
+  "repository": "alwinn1977/react-simple-flowchart",
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "@babel/preset-stage-1": "^7.8.3",
+    "d3": "^7.8.5",
+    "d3-transform": "^1.0.5",
+    "flowchart.js": "^1.18.0"
+  }
+}

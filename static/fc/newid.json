@@ -1,0 +1,29 @@
+{
+    "rules": "\nst->ns0->ns1->ns2->ns3->ns4->ns5->nse",
+    "code": "st=>start: Start\nns0=>operation: Request ID\nns1=>operation: Insert ID\nns2=>operation: Flip ID\nns3=>operation: Remove ID\nns4=>operation: Check OCR\nns5=>operation: Check Info\nnse=>end: End\nplh=>operation: Placeholder ID", 
+    "mdMap": {
+        "st": "crres",
+        "ns0": "NS23",
+        "ns1": "NS24",
+        "ns2": "NS25",
+        "ns3": "NS26",
+        "ns4": "NS27",
+        "ns5": "NS28",
+        "__DEFAULT": "unset"
+    },
+    "links": {
+        "plh":"/test2"
+    },
+    "buttonLabels": {
+        "st": "Begin",
+        "ns0": "Request ID",
+        "ns1": "Insert ID",
+        "ns2": "Flip ID",
+        "ns3": "Remove ID",
+        "ns4": "Check OCR",
+        "ns5": "Check Info",
+        "nse": "Info Entered"
+    }
+    
+    
+}

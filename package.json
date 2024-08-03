@@ -1,0 +1,49 @@
+{
+  "name": "nextra-docs-template",
+  "version": "0.0.1",
+  "description": "Nextra docs template",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+  },
+  "author": "Shu Ding <g@shud.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuding/nextra-docs-template/issues"
+  },
+  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "dependencies": {
+    "d3": "^7.8.5",
+    "marked": "^12.0.0",
+    "next": "^13.5.6",
+    "nextra": "workspace:*",
+    "nextra-theme-docs": "workspace:2.13.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-simple-flowchart": "workspace:1.2.4",
+    "tsup": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^4.9.5"
+  },
+  "dependenciesMeta": {
+    "nextra": {
+      "injected": true
+    },
+    "nextra-theme-docs": {
+      "injected": true
+    },
+    "react-simple-flowchart": {
+      "injected": true
+    }
+  }
+}
